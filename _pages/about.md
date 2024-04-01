@@ -2,24 +2,19 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD Candidate at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: tomsilver2-high-res.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info:
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+
 ---
+I am a final year PhD student at MIT EECS. My research is motivated by the prospect of <b>broadly-competent</b>, <b>helpful</b>, and <b>intelligent</b> robots that can respond to very high-level commands like "make me a heart-healthy dinner"; learn new skills like "grind fresh pepper"; and learn new concepts like "wilted spinach." Such robots will be especially transformative for people who cannot otherwise remain independent in their homes. Most of my work is at the intersection of automated planning and machine learning: <b>learning to plan</b> and <b>planning to learn</b> while making <b>efficient</b> use of limited data and time. I often use techniques from <a href="https://arxiv.org/abs/2010.01083">task and motion planning</a>, <a href="https://arxiv.org/abs/1904.06317">program synthesis</a>, and <a href="https://arxiv.org/abs/2206.10680">neuro-symbolic machine learning</a>.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+At MIT, I am advised by Leslie Kaelbling and Joshua Tenenbaum and am a member of the <a href="https://lis.csail.mit.edu/">Learning and Intelligent Systems</a> group and the <a href="https://cocosci.mit.edu/">Computational Cognitive Science</a> group. Previously I was a researcher at Vicarious AI. I received my B.A. from Harvard with highest honors in computer science and mathematics in 2016. I have also interned at Google Research (Brain Robotics) and currently split my time between MIT and the <a href="https://theaiinstitute.com/">Boston Dynamics AI Institute</a>. I am grateful for support from an NSF Graduate Research Fellowship and an MIT Presidential Fellowship.
