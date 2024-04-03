@@ -27,7 +27,7 @@ nav: true
 
   <hr>
 
-  <h2 class="publication">Pics of My Dog Nomsy</h2>
+  <h2 class="publication">Dog Posts</h2>
 
 
     <!-- Gallery -->
