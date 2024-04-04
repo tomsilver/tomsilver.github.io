@@ -27,7 +27,7 @@ At MIT, I am advised by Leslie Kaelbling and Joshua Tenenbaum and am a member of
   <!-- Learning abstractions for hierarchical planning -->
   <div class="row">
     <div class="col-sm-5">
-      <p><img src="assets/img/behavior-blog-post-image12.gif" style="width: 300px; height: 200px;"></p>
+      <p><img src="/assets/img/behavior-blog-post-image12.gif" style="width: 300px; height: 200px;"></p>
     </div>
     <div class="col-sm-7">
       <h5 id="learning-abstractions-for-planning">Learning abstractions for hierarchical planning</h5>
@@ -38,7 +38,7 @@ At MIT, I am advised by Leslie Kaelbling and Joshua Tenenbaum and am a member of
   <!-- Program synthesis for planning -->
   <div class="row" style="padding-top: 25px;">
     <div class="col-sm-5">
-     <p><video controls playsinline autoplay muted loop width="300" style="margin-top:10px; margin-right:50px;"><source src="assets/video/blocksworld-program-synthesis.mp4" type="video/mp4" /></video></p>
+     <p><video controls playsinline autoplay muted loop width="300" style="margin-top:10px; margin-right:50px;"><source src="/assets/video/blocksworld-program-synthesis.mp4" type="video/mp4" /></video></p>
     </div>
     <div class="col-sm-7">
       <h5 id="program-synthesis-for-planning">Program synthesis for planning</h5>
@@ -49,7 +49,7 @@ At MIT, I am advised by Leslie Kaelbling and Joshua Tenenbaum and am a member of
   <!-- Learning to accelerate planning -->
   <div class="row" style="padding-top: 25px;">
     <div class="col-sm-5">
-     <p><video controls playsinline autoplay muted loop width="300" style="float: left; margin-top:5px; margin-right:50px;margin-bottom: 25px;"><source src="assets/video/ploi-compressed.mp4" type="video/mp4" /></video></p>
+     <p><video controls playsinline autoplay muted loop width="300" style="float: left; margin-top:5px; margin-right:50px;margin-bottom: 25px;"><source src="/assets/video/ploi-compressed.mp4" type="video/mp4" /></video></p>
     </div>
     <div class="col-sm-7">
       <h5 id="learning-to-accelerate-planning">Learning to accelerate planning</h5>
@@ -60,7 +60,7 @@ At MIT, I am advised by Leslie Kaelbling and Joshua Tenenbaum and am a member of
   <!-- Planning to learn -->
   <div class="row" style="padding-top: 25px;">
     <div class="col-sm-5">
-     <p><video controls playsinline autoplay muted loop width="300" style="float: left; margin-top:5px; margin-right:50px;margin-bottom: 25px; "><source src="assets/video/spot-sweeping-compressed-v2.mp4" type="video/mp4" /></video></p>
+     <p><video controls playsinline autoplay muted loop width="300" style="float: left; margin-top:5px; margin-right:50px;margin-bottom: 25px; "><source src="/assets/video/spot-sweeping-compressed-v2.mp4" type="video/mp4" /></video></p>
     </div>
     <div class="col-sm-7">
       <h5 id="planning-to-learn">Planning to learn</h5>
