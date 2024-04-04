@@ -6,7 +6,7 @@ subtitle: PhD Candidate at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>
 
 profile:
   align: right
-  image: tomsilver3.jpg
+  image: tomsilver3-high-res.jpg
   image_circular: false # crops the image to make it circular
   more_info:
 
