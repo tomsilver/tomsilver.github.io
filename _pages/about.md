@@ -30,7 +30,7 @@ At MIT, I am advised by Leslie Kaelbling and Joshua Tenenbaum and am a member of
       <p><img src="/assets/img/behavior-blog-post-image12.gif" style="width: 300px; height: 200px;"></p>
     </div>
     <div class="col-sm-7">
-      <h5 id="learning-abstractions-for-planning">Learning abstractions for hierarchical planning</h5>
+      <h5 id="learning-abstractions-for-planning">Learning abstractions for robot planning</h5>
       <p>Abstractions allow robots to first focus on the high-level aspects of a task before getting bogged down in details. We would like a robot to automatically learn abstractions&mdash;<a href="https://arxiv.org/abs/2203.09634" target="_blank" rel="noopener noreferrer">state abstractions (predicates)</a> and <a href="https://arxiv.org/abs/2206.10680" target="_blank" rel="noopener noreferrer">action abstractions (skills)</a>&mdash;that are specialized for planning in its domain. We are especially interested in abstractions for <a href="https://arxiv.org/abs/2010.01083">task and motion planning</a>. (Image credit: <a href="https://nishanthjkumar.com/">Nishanth Kumar</a>)</p>
     </div>
   </div>
