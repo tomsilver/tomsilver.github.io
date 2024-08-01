@@ -15,7 +15,7 @@ nav: true
   <p>I am looking for <b>multiple PhD students</b> to start the <b style="color: #b509ac">Princeton Robot Planning and Learning (PRPL)</b> lab. Prospective students should apply to either <a href="https://ece.princeton.edu/academics/graduate/apply">ECE</a> or <a href="https://www.cs.princeton.edu/grad">CS</a> and mention my name.
   </p>
 
-  <p>I am not hiring students for specific projects. I am looking for people who are generally interested in robots, planning, and learning. Most of all, I am looking to build a diverse group aligned around the <b style="color: #b509ac">PRPL mission</b>:</p>
+  <p>I am not hiring students for specific projects. I am looking for people who are generally interested in robots, planning, and learning. Most of all, I want to build a diverse group aligned around the <b style="color: #b509ac">PRPL mission</b>:</p>
 
   <center><p><b style="color: #b509ac">Develop generalist robots that learn and plan to help people.</b></p></center>
   
