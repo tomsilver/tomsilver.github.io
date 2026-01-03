@@ -839,6 +839,8 @@ pre {
   background-color: var(--global-code-bg-color);
   border-radius: 6px;
   padding: 6px 12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 
   pre,
   code {
