@@ -46,9 +46,9 @@ PROBLEM:
 
 See footnote 1 for the answer. If I included one of these prompts in a paper, could you, as a reviewer, determine how much I fiddled, and how much it made a difference? I certainly could not!
 
-So what should we do? Well first, let's be clear: prompt engineering is not the problem. Like all forms of hyperparameter optimization, prompt engineering (automated or manual) is good and useful, _so long as it does not touch the test set_. The problem is _prompt fiddling_---changing the prompt to try to obtain better performance on the supposedly-held-out test set. To the extent that this is an old machine learning problem reskinned, we can start to address it with a renewed commitment to old practices:
+So what should we do? Well first, let's be clear: prompt engineering is not the problem. Like all forms of hyperparameter optimization, prompt engineering (automated or manual) is good and useful, _so long as it does not touch the test set_. The problem is _prompt fiddling_---changing the prompt to try to obtain better performance on the supposedly-held-out _test set_. To the extent that this is an old machine learning problem reskinned, we can start to address it with a renewed commitment to old practices:
 
-1. Optimize prompts with respect to a _validation set_ (not test set).
+1. Optimize prompts with respect to a <a href="https://en.wikipedia.org/wiki/Training,_validation,_and_test_data_sets">validation set</a> (not test set).
 2. Report as much information as possible about the optimization process.
 3. Clarify the kind and scope of generalization claimed.
 4. Participate in benchmarks where test sets are truly hidden and <a href="https://dswalter.github.io/machine-learnings-first-cheating-scandal.html">fiddling is considered cheating</a>.
