@@ -15,6 +15,7 @@ nav: true
   <h2 class="publication">Blog Posts</h2>
 
   <ul>
+    <li>(Jan 2026) <a href="/blog/2024/prompt-fiddling/">Prompt Fiddling Considered Harmful</a></li>
     <li>(Jul 2024) <a href="/blog/2024/lessons/">Lessons from My First <s>Two</s> Eight Years of Research</a></li>
     <li>(Nov 2023) <a href="https://lis.csail.mit.edu/bilevel-planning-for-robots-an-illustrated-introduction/">Bilevel Planning for Robots</a> with <a href="https://nishanthjkumar.com/">Nishanth Kumar</a>, <a href="https://wmcclinton.github.io/">Willie McClinton</a>, and <a href="https://www.linkedin.com/in/kathrynle">Kathryn Le</a></li>
     <li>(Jul 2023) <a href="https://lis.csail.mit.edu/whats-your-problem-an-oft-missing-section-in-ai-papers/">What's Your Problem? An Oft-Missing Section in AI Papers</a></li>
