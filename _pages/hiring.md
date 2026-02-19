@@ -2,7 +2,7 @@
 layout: default
 title: "hiring"
 permalink: /hiring
-nav: true
+nav: false
 ---
 
 <div class="post">
