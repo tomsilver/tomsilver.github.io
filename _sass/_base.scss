@@ -867,6 +867,11 @@ html.transition *:after {
   transition-delay: 0 !important;
 }
 
+// About page
+article.about-text {
+  text-align: justify;
+}
+
 // Extra Markdown style (post Customization)
 .post {
   .post-meta {
