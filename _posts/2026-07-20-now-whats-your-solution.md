@@ -17,7 +17,7 @@ Here is the recipe I usually follow for the kind of mostly-empirical engineering
 
 ### Step 1: Implement a first concrete problem
 
-Start by implementing one subclass of `Problem`. Make it as simple as possible, but not simpler than that. The essence of the problem still needs to be there.
+Start by implementing one subclass of `Problem`. Make it as simple as possible, but not simpler. The essence of the problem still needs to be there.
 
 If your setting is about long-horizon manipulation under partial observability, then the first concrete problem should be long-horizon and partially observable, even if it's a gridworld with three objects. Resist the urge to start with the environment that you hope will appear in the paper's teaser figure. You will iterate on everything downstream of this choice many times. At this stage, fast iteration matters much more than realism.
 
@@ -105,11 +105,12 @@ Finally, start implementing progressively more sophisticated methods until you'r
 
 The tricky thing about Step 2.5 is that the target is moving fast. The pure agent you beat today may not be the one that reviewers have in mind six months from now. So, at the beginning of the project, it's worth asking whether the problem setting is future-proof.
 
-My guess is that the most future-proof projects are ones where the pure agent can't be run at all, almost by definition, or where it scores zero on some metric and it's obvious why. A few examples:
+My guess is that the most future-proof projects are ones that either "embrace the agents" and contribute to improving them (e.g., data collection, model architecture, scaling infrastructure, evaluation), or "beat the agents by definition", where the pure agent can't be run at all, or where it scores zero on some metric and it's obvious why. A few examples of the latter:
 
 - The metrics include real-time constraints on real hardware. If a method must produce high-frequency control outputs on onboard compute, then a method that round-trips to a frontier model scores zero on that metric.
 - The problem requires information that can't be present in any pretraining corpus and must instead be acquired through interaction during evaluation: the preferences of this particular user, for example, or the miscalibrated dynamics of this particular robot. Physical interaction efficiency may be a useful metric here, since agents are already quite good at learning from whatever context you give them.
 - The metrics require a certificate, not just behavior: a formally verified plan, a proof of safety, or a guarantee that holds over every problem in some set rather than an empirical success rate. Safety for physical robots may be an example, but it depends on the definition: expected safety above a threshold is something an agent might achieve empirically, while a guarantee that unsafe states are never reached is not.
+- The problem requires collecting and/or learning from data beyond the limits of a context window, say, millions of interactions in a reinforcement learning environment.
 
 It's hard to come up with many examples like these, and even the ones above are debatable. But this difficulty is itself informative: in 2026, figuring out where these problems live may be a large fraction of the research.
 
@@ -123,4 +124,4 @@ A closing caveat: this whole recipe is only one way to do research. Another resp
 
 #### Acknowledgements
 
-Thanks to Hannah Blumberg, Matteo Merler, and Josh Roy for providing feedback on a draft of this post.
+Thanks to Hannah Blumberg, Bowen Li, Matteo Merler, and Josh Roy for providing feedback on a draft of this post.
