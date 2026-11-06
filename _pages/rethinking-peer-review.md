@@ -1,38 +1,38 @@
 ---
 layout: post
-title: "Some Ramblings and Radical Ideas for Rethinking Our Peer Review System"
+title: "A Case for Paper Grading Boards (Or: A Plea for More Proposals to Radically Reform Peer Review)"
 date: 2026-11-05 12:00:01
 description: "Conferences and journals in robotics no longer disseminate work and do a poor job of rewarding it. I propose separating the two."
 permalink: /blog/2026/rethinking-peer-review/
 sitemap: false
 ---
 
-Our peer review and publicity systems in robotics (and I'm sure in other fields too, but I can only speak to robotics) are quite broken. Here are a few of the more pressing issues.
+Our peer review system in robotics (and I'm sure in other fields too, but I can only speak to robotics) is quite broken:
 
-1. There are a huge number of papers, thanks in part to AI agents and in part to growing interest in the field.
-2. There are not nearly enough qualified expert reviewers, and less qualified reviewers and AI reviews are increasingly filling the gap.
-3. The review process takes way too long, and papers are outdated by the time they are published. This is especially true for journals, which can have multiple rounds of back and forth with many months between rounds.
-4. Papers are submitted over and over until they are accepted. This is an optimal strategy for authors, given the very noisy review process and the fact that submitting is effectively free.
-5. Publicity (e.g., on social media) is a huge determinant of which papers get read and ultimately cited, and people without established reputations cannot easily break out.
+1. There are far too many papers. Each new paper spawns more, like Harry Potter's [Geminio](https://harrypotter.fandom.com/wiki/Doubling_Charm) curse (our [Gemini](https://gemini.google.com/) curse?).
+2. Qualified reviewers are collectively drowning under the paper flood. "Use LLMs to review!" sing the sirens.
+3. Back on shore, authors wait for months, sometimes years, to learn their paper's fate.
+4. No paper is ever really dead, but many are undead, rejected and resubmitted to venue after venue.
 
-The time is nigh for some radical ideas. I appreciate that some venues are already experimenting. [RSS 2027](https://roboticsconference.org/information/cfp/) is trying a two-stage process. Authors first submit an extended abstract, and promising papers receive an "Extension Charter" that spells out what the final paper needs. But I think we can get even more radical.
+The time is ripe for radical change. I don't have a Silver bullet that would fix all of these deep-rooted issues in "one shot", but I have one concrete-ish proposal, and I want to share it in the hopes that it will spur others to share their radical ideas so that we can collectively hop into a better basin.
 
-**What is all of this for?** We want good work to be disseminated. We also want to reward the people who did the good work, both for fairness and to incentivize more good work.
+The proposal is this:
+1. End journals.
+2. Keep conferences, but make the barrier to entry low, as it is in physics and neuroscience, for example.
+3. Institute _paper grading boards (PGBs)_. Like journals, PGBs have expert reviewers, and a paper is submitted to exactly one of them, once. Unlike journals, **a PGB never rejects a paper**; instead, every submission receives a public _report card_ with grades in categories (novelty, predicted impact, etc.).
 
-In an idealized version of our current system, conferences and journals handle both dissemination and reward. Publishing a paper at a prestigious venue is a reward that goes on your CV. People then attend the conference or read the journal, and the work is disseminated. (In this idealized utopia, maybe people even keep a physical copy of the journal and browse through it at their leisure.)
+The most important part is bolded. As an author, if I'm only getting one chance at a paper grade, I'm spending a lot more time polishing that paper. This would slow the field down in a very good way.
 
-But in reality, as soon as work is semi-finished, it is posted on a preprint server and publicized on social media. By the time a paper is released from conference or journal review purgatory, months or even years have passed, and the field has moved on. The only remaining reason to submit to these venues is the reward; they no longer serve as effective disseminators. They also do a bad job of bestowing rewards, because the qualified reviewers are all busy keeping up with the churn of papers.
+Journals and conferences ("The Old Way") are trying and failing to do three things at once: (1) **improve papers** through the revision process; (2) **disseminate work** through the journal and conference proceedings; and (3) **reward authors** with a line item on their CV, incentivizing more good work.
 
-**So here's my radical proposal.** Let's end conferences and journals as we currently know them in robotics, and rebuild the system from the ground up with dissemination and reward handled separately. Concretely, let's start by establishing new peer review bodies that serve only as a reward function. To avoid confusion with journals, let's call them *grading boards*. A grading board would grade each submitted paper in several categories, like novelty and projected impact. Each paper would be submitted only once, and there would be no acceptance or rejection, only a grade in each category. This would end the churn. It would also push authors to polish their papers and seek informal feedback from peers before submitting, which would save a ton of expert reviewer time. Noise would still be an issue, and I'm open to ideas like a one-time rebuttal to reduce it, but I think this is a step in the right direction.
+The New Way would work like this: (1) The onus would be on the **authors** to **improve their own papers** and solicit informal feedback before submission. (Asking low-bandwidth experts to do this as part of review is no longer sustainable.) (2) To start, work would be **disseminated the way that it functionally is now**: social media, conferences, word of mouth. (There are major issues with this, and we should fix them too, but I'll leave this out of scope for my PGB proposal.) (3) **PGBs** would **reward only**. I know that as a reviewer serving on a PGB, I would appreciate this clarity of mission. But more than that, I would appreciate the absence of premature and undead papers in my pile.
 
-We could still keep conferences as a place to network and disseminate work. Because the grading boards would handle the reward, the bar to present at a conference could be low, as it already is in fields like physics and neuroscience.
+Some problems of the Old Way would carry over to the New Way. How do we incentivize reviewers to do their job well? How do we mitigate noise when, even in good faith, different people view the same paper so differently? How do we resist insidious influence of AI on both sides of the process? How do we agree on what categories matter when evaluating a paper? I don't know. The most I will claim is: on these points, the New Way would be Not Worse.
 
-Now for the problem of publicity. Under the system so far, people with established reputations would still be louder on social media and get more eyeballs on their work. There would also still be a delay between submitting a paper to a grading board and receiving its grades. Ideally, grades would come out immediately, and people would naturally want to read the best-graded papers. One partial fix is for grading boards to prioritize reviews for people who have made fewer submissions. In the best case, a newcomer who is doing very good work but hasn't had a chance to build a reputation would get their grades quickly, and people would read their work right away. This would also discourage people from submitting a bunch of garbage, because each extra submission would lengthen their own wait times.
-
-I'm sure this proposal has many flaws. After all, this blog post was only lightly peer reviewed (see the acknowledgements below). But I'm also confident that we need something radically new, and that we shouldn't let the perfect be the enemy of the good as we fight against inertia. Let's keep the radical review revamp ideas flowing!
+And I'm sure this proposal has many flaws. After all, this proposal on peer review was only lightly peer reviewed (see the acknowledgments below). But I'm also confident that we need something radically new, and that we shouldn't let the perfect be the enemy of the good as we fight against inertia. Let's keep the radical review reform ideas coming.
 
 <hr>
 
-#### Acknowledgements
+#### Acknowledgments
 
-Thanks to **[names]** for providing feedback on a draft of this post.
+Thanks to Hannah Blumberg, Yixuan Huang, Matteo Merler, and Andreu Matoses Gimenez for providing feedback on a draft of this post.
